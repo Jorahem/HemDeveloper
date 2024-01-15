@@ -40,17 +40,12 @@ button {
     font-weight: 800;
     margin-bottom: 20px;
 }
+
 .content a {
-    text-decoration: none;
-    color: white;
-    border: 2px solid #fff;
-    font-weight: 500;
-    padding: 10px 40px;
-    border-radius: 40px;
-    transition: .5s;
     position: absolute;
     top: 70%;
     left: 18%;
+
 }
 
 .content a:hover {
@@ -96,7 +91,37 @@ button {
     top: 3.5%;
     left: 56%;
 }
-.nextpage{
-    transition: all 2s ease-in-out;
-    transition-timing-function: calc(2s);
-}
+
+.bn31 {
+    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #00a84f;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 9em;
+    z-index: 2;
+  }
+  
+  .bn31:hover {
+    color: #fff;
+  }
+  
+  .bn31 .bn31span {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+  
+  .bn31:hover .bn31span {
+    background: transparent;
+  }
